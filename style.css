@@ -1,0 +1,41 @@
+#hangman-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#hangman-left {
+  width: 40%;
+}
+#hangman-img {
+  transition: all 1s;
+  opacity: 0;
+}
+
+/* [RIGHT - GAME INTERFACE] */
+#hangman-right {
+  width: 60%;
+  padding: 10px;
+  background: #aaa;
+}
+#hangman-words span {
+  display: inline-block;
+  margin: 5px;
+  font-size: 2em;
+}
+#hangman-char input[type="button"] {
+  font-size: 1.3em;
+  padding: 5px;
+}
+#hangman-bottom {
+  padding: 5px;
+}
+
+/* [DOES NOT MATTER] */
+html,
+body {
+  font-family: arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}

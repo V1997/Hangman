@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      hangman | Play | Game | Question of Life and Death | Enjoy
+    </title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="hangman-wrap">
+      <div id="hangman-left">
+        <img
+          id="hangman-img"
+          src="https://i.pinimg.com/originals/11/7f/f5/117ff51707c109b253a8d41c6057620f.png"
+        />
+      </div>
+
+      <div id="hangman-right">
+        <div id="hangman-words"></div>
+
+        <div id="hangman-char"></div>
+
+        <div id="hangman-bottom">
+          Lives Left: <span id="hangman-lives"></span>
+          <input type="button" value="Reset" id="hangman-reset" disabled />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
